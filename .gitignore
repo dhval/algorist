@@ -1,0 +1,44 @@
+#jekyll
+jekyll/
+
+# General Files
+**/.pmd
+**/.project
+**/*.log
+**/*.db
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.log
+/*.txt
+/*.json
+/*.csv
+/*.xml
+*.iml
+*.class
+
+#java specific
+**/.class
+*.jar
+*.war
+*.ear
+*.bak
+*.classpath
+*.project
+
+#project ide-lang specific
+project-root-directory/
+.m2/
+.idea/
+target/*
+
+# Hide local resource
+src/main/resources/
+
+project-sub-directory/
+*/build/
+*/dist/
+/*/build.xml
+/bin
+/tmp
